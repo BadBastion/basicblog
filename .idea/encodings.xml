@@ -8,21 +8,14 @@
     <file url="file://$PROJECT_DIR$/models/posts.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/other_modules/lazy.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/package.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/public/css/index.scss" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/public/css/style.css" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/public/css/style.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/public/css/style.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/es6/ContentElement.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/es6/PostViewElement.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/es6/PostsListElement.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/public/es6/index.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/public/es6/index.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/public/es6/moment.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/public/es6/posts.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/public/es6/posts.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/public/js/all.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/routes/index.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/routes/posts.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/views/defaults/footer.ejs" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/views/defaults/header.ejs" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/views/error.ejs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/views/form.ejs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/views/index.ejs" charset="UTF-8" />
   </component>

@@ -57,7 +57,7 @@ router.get('/api/posts/', function(req, res) {
   res.json(posts);
 });
 
-router.get('/api/posts/search/:term', function(req, res) {
+router.get('/api/posts/filter/:term', function(req, res) {
   const term = req.params.term.toLowerCase();
   const posts = (
     Lazy(Posts.recent())
@@ -71,7 +71,9 @@ router.get('/api/posts/search/:term', function(req, res) {
 });
 
 router.get('/api/posts/remove/:id', function(req, res) {
-  res.send("newpost");
+  const json = Posts.remove(req.params.id);
+  console.log(json);
+  res.json(json);
 });
 
 router.post('/api/posts/create', function(req, res) {
@@ -85,7 +87,7 @@ router.post('/api/posts/create', function(req, res) {
     created: dateTime,
     modified: dateTime
   });
-  res.send("it worked!");
+  res.redirect("/");
 });
 
 router.post('/api/posts/update', function(req, res) {
@@ -98,7 +100,7 @@ router.post('/api/posts/update', function(req, res) {
       content: content,
       modified: dateTime
     });
-  res.send("it worked!");
+  res.redirect("/");
 });
 
 

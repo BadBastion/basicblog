@@ -41,9 +41,10 @@ const add = function(post){
 
 
 const remove = function(id){
+  id = parseInt(id);
   const filtered = (
     Lazy(all().posts)
-      .filter(post =>  post.id != id)
+      .filter(post =>  post.id !== id)
       .toArray()
   );
 
@@ -53,6 +54,7 @@ const remove = function(id){
   });
 
   fs.writeFileSync("models/posts.json", json);
+  return recent();
 };
 
 const edit = function(updatedPost){

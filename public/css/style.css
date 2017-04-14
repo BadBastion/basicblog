@@ -1,0 +1,87 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0; }
+
+a {
+  color: #00B7FF;
+  text-decoration: none; }
+
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+.padded-left {
+  padding-left: 15px; }
+
+.padded-right {
+  padding-right: 15px; }
+
+.header {
+  padding: 20px;
+  font-size: 20px; }
+
+.centered {
+  text-align: center; }
+
+#header {
+  background-color: rgba(216, 238, 255, 0.74);
+  height: 15vh;
+  width: 100%;
+  font-size: 36px;
+  line-height: 15vh;
+  color: dimgray; }
+
+#posts-list {
+  width: 40%;
+  height: 85vh;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+  #posts-list .listpost {
+    height: 30px;
+    line-height: 30px; }
+
+#posts-view {
+  width: 60%;
+  height: 85vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 16px; }
+  #posts-view #search {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(127, 216, 190, 0.74);
+    border-radius: 10px; }
+    #posts-view #search input {
+      width: 60%;
+      margin-left: 10%; }
+  #posts-view .post {
+    background-color: rgba(180, 200, 216, 0.74);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px; }
+    #posts-view .post .date {
+      font-size: 12px;
+      color: rgba(86, 107, 216, 0.74);
+      margin-bottom: 20px; }
+    #posts-view .post .buttons {
+      margin-top: 20px;
+      height: 20px;
+      line-height: 20px; }
+
+#form {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgba(86, 107, 216, 0.74);
+  padding: 20px; }
+  #form textarea {
+    width: 100%; }
+  #form input {
+    width: 30%;
+    margin-left: 35%; }
+  #form p {
+    font-size: 24px;
+    text-align: center; }
